@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feedback on Jonas Bolldén</title>
+    <link>/tags/feedback/</link>
+    <description>Recent content in Feedback on Jonas Bolldén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 30 Sep 2016 16:39:29 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/feedback/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Retrospective and Feedback</title>
+      <link>/2016/09/30/retrospective-and-feedback/</link>
+      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
+      
+      <guid>/2016/09/30/retrospective-and-feedback/</guid>
+      <description>Straight out of the Scrum guide1:
+ The Sprint Retrospective is an opportunity for the Scrum Team to inspect itself and create a plan for improvements to be enacted during the next Sprint.
+ and
+ By the end of the Sprint Retrospective, the Scrum Team should have identified improvements that it will implement in the next Sprint. Implementing these improvements in the next Sprint is the adaptation to the inspection of the Scrum Team itself.</description>
+    </item>
+    
+  </channel>
+</rss>

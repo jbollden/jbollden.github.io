@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en-US" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Updating Arch 2013.2 on Rackspace &middot; Jonas Bolldén</title>
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="canonical" href="/2013/06/07/updating-arch-2013-2-on-rackspace/" />
+
+     <meta name="description" content="With June 3rd came an update for Arch Linux that gave me some server trouble I couldn&amp;rsquo;t recover from. I had to start my Rackspace server in Rescue Mode to" /> 
+
+     
+    
+    <meta name="twitter:card" content="summary"/>
+    
+ 
+    <meta name="twitter:title" content="Updating Arch 2013.2 on Rackspace"/>
+    <meta name="twitter:description" content="With June 3rd came an update for Arch Linux that gave me some server trouble I couldn&amp;rsquo;t recover from. I had to start my Rackspace server in Rescue Mode to"/>
+    <meta name="twitter:url" content="/2013/06/07/updating-arch-2013-2-on-rackspace/" />
+    <meta name="twitter:site" content="@jonasbollden"/>
+
+    <meta property="og:site_name" content="Jonas Bolldén" />
+    <meta property="og:title" content="Updating Arch 2013.2 on Rackspace &middot; Jonas Bolldén" />
+    <meta property="og:url" content="/2013/06/07/updating-arch-2013-2-on-rackspace/" />
+    <meta property="article:publisher" content="https://www.facebook.com/jonasbollden" />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="With June 3rd came an update for Arch Linux that gave me some server trouble I couldn&amp;rsquo;t recover from. I had to start my Rackspace server in Rescue Mode to" />
+
+    <meta property="article:published_time" content="2013-06-07T07:51:00&#43;02:00" />
+    <meta property="article:tag" content="arch linux" /><meta property="article:tag" content="cloud" /><meta property="article:tag" content="rackspace" />
+
+    <meta property="og:image" content="/img/backdrops/Norrbotten_PanoramaMire_2017-07-26_1584x424.jpg"/>
+
+    <meta name="generator" content="Hugo 0.40.3" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="/built/screen.css" /> 
+    <link rel="stylesheet" type="text/css" href="/css/casper-two.css" /> 
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" />
+     <link rel="stylesheet" href="/css/custom.css" /> 
+
+     
+
+</head>
+
+
+<body class="ctsingle">
+
+  <div class="site-wrapper"> 
+
+<header class="site-header outer "  style="background-image: url(/img/backdrops/Norrbotten_PanoramaMire_2017-07-26_1584x424.jpg)"  >
+  <div class="inner">
+    <div class="site-header-content">
+      <h1 class="site-title"> Jonas Bolldén  </h1>
+        <h2 class="site-description"> </h2>
+    </div>
+
+    <nav class="site-nav">
+      <div class="site-nav-left"><ul class="nav" role="menu">
+        
+        
+        
+            <li class="" role="menuitem">
+              <a href="/">Home</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/tags/">Tags</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/about/">About</a>
+            </li>
+        
+            <li class="" role="menuitem">
+              <a href="/profile/">Profile</a>
+            </li>
+        
+      </ul></div>
+
+      <div class="site-nav-right">
+        <div class="social-links">
+                    <a class="social-link social-link-fb" href="https://www.facebook.com/jonasbollden" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg></a>
+
+                    <a class="social-link social-link-tw" href="https://twitter.com/jonasbollden" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg></a>
+
+                    <a class="social-link" href="https://github.com/jonasbollden" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+
+                    <a class="social-link" href="https://www.linkedin.com/in/jonasbollden" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 50 512 512"><path d="M150.65,100.682c0,27.992-22.508,50.683-50.273,50.683c-27.765,0-50.273-22.691-50.273-50.683 C50.104,72.691,72.612,50,100.377,50C128.143,50,150.65,72.691,150.65,100.682z M143.294,187.333H58.277V462h85.017V187.333z M279.195,187.333h-81.541V462h81.541c0,0,0-101.877,0-144.181c0-38.624,17.779-61.615,51.807-61.615 c31.268,0,46.289,22.071,46.289,61.615c0,39.545,0,144.181,0,144.181h84.605c0,0,0-100.344,0-173.915 s-41.689-109.131-99.934-109.131s-82.768,45.369-82.768,45.369V187.333z" /></svg></a>
+
+                    
+        </div>  
+            
+      </div>
+
+    </nav>  
+
+  </div>
+</header>
+
+
+<main id="site-main" class="site-main outer" role="main">
+  <div class="inner">
+    
+    <div class="post-feed">
+      <article class="post-card post"> 
+    
+    <a class="post-card-image-link" href="/2013/06/07/updating-arch-2013-2-on-rackspace/">
+      <div class="post-card-image" style="background-image: url(/defimg/1.jpg)"></div>
+    </a>    
+    
+
+    <div class="post-card-content">
+      <a class="post-card-content-link" href="/2013/06/07/updating-arch-2013-2-on-rackspace/">
+          <header class="post-card-header">
+              <span class="post-card-tags">
+              #arch linux 
+              #cloud 
+              #rackspace  </span>
+              
+              <h2 class="post-card-title">Updating Arch 2013.2 on Rackspace</h2>
+          </header>
+      </a>
+      <section class="post-card-excerpt" style="padding: 0 25px;">
+          
+
+<p>With June 3rd came an update for Arch Linux that gave me some server trouble I couldn&rsquo;t recover from. I had to start my Rackspace server in Rescue Mode to get my data back (files and databases). On the upside I found that Rackspace had upgraded the image to build from, now it&rsquo;s &ldquo;Arch 2013.2&rdquo;. So I rebuilt the server from that image. This article describes how I upgraded the server and created a new image that could be used for creating new servers on Rackspace.</p>
+
+<h2 id="switch-to-systemd">Switch to <code>systemd</code></h2>
+
+<p>Edit the GRUB boot file and add <code>init=/usr/lib/systemd/systemd</code> to the kernel line:</p>
+
+<p><code># nano -w /boot/grub/menu.lst</code></p>
+
+<pre><code>kernel /boot/vmlinuz-linux root=/dev/xvda1 ro console=hvc0 init=/usr/lib/systemd/systemd
+</code></pre>
+
+<p>Then reboot the system:</p>
+
+<p><code># reboot</code></p>
+
+<p>Once you&rsquo;ve logged back in you could check that <code>cat /proc/1/comm</code> returns <code>systemd</code>, which means <code>systemd</code> is running. Before the reboot <code>init</code> would have been returned.</p>
+
+<p>Next you should synchronize the package databases and upgrade <code>pacman</code>:</p>
+
+<pre><code># pacman -Syy pacman
+# mv /etc/pacman.conf.pacnew /etc/pacman.conf
+</code></pre>
+
+<p>It is recommended, but, as far as I know, not needed, to enable three components in <code>systemd</code> on your Rackspace NextGen Cloud server. Two of them is in the package <code>xe-guest-utilities</code> and the third, <code>nova-agent</code>, is already on your system.</p>
+
+<p><code># pacman -S xe-guest-utilities</code></p>
+
+<p>Create the custom service for <code>nova-agent</code>:</p>
+
+<p><code># nano -w /etc/systemd/system/nova-agent.service</code></p>
+
+<p>with the following content:</p>
+
+<pre><code>[Unit]
+Description=Openstack nova agent
+After=xe-daemon.service
+
+[Service]
+Type=forking
+ExecStart=/usr/bin/nova-agent -q -o /var/log/nova-agent.log -l info /usr/share/nova-agent/nova-agent.py
+
+[Install]
+WantedBy=multi-user.target
+</code></pre>
+
+<p>You should move the <code>nova-agent</code> binary to <code>/usr/bin</code>:</p>
+
+<p><code># mv /usr/sbin/nova-agent /usr/bin/</code></p>
+
+<p>Then enable the services:</p>
+
+<pre><code># systemctl enable xe-linux-distribution.service
+# systemctl enable xe-daemon.service
+# systemctl enable nova-agent.service
+</code></pre>
+
+<p>In <code>/etc/rc.conf</code> you should convert the <code>DAEMONS</code> to <code>systemd</code> services. I first switched <code>dcron</code> for <code>cronie</code>, which is the default cron service for Arch Linux:</p>
+
+<p><code># pacman -S cronie</code></p>
+
+<p>and then enabled:</p>
+
+<pre><code># systemctl enable sshd.service
+# systemctl enable syslog-ng.service
+# systemctl enable cronie.service
+# systemctl enable netcfg.service
+</code></pre>
+
+<p>To finalize the switch to <code>systemd</code> remove <code>sysvinit</code> and <code>initscript</code>, and install <code>systemd-sysvcompat</code>:</p>
+
+<pre><code># pacman -R sysvinit initscripts
+# pacman -S systemd-sysvcompat
+</code></pre>
+
+<p>Followed by a reboot</p>
+
+<p><code># reboot</code></p>
+
+<h2 id="switch-to-netctl">Switch to <code>netctl</code></h2>
+
+<p>This image still uses <code>netcfg</code> which in time will be deprecated, therefore it is a good idea to do the switch at the same time as the rest of the updates. This is explained in detail on the Arch Linux <a href="https://wiki.archlinux.org/index.php/Netctl">wiki</a>, and below I describe what I did.</p>
+
+<p>First remove <code>netcfg</code> and then install <code>netctl</code>:</p>
+
+<pre><code># pacman -R netcfg
+# pacman -S netctl
+</code></pre>
+
+<p>Copy the old <code>netcfg</code>-profiles:</p>
+
+<pre><code># cp /etc/network.d/eth0 /etc/netctl/
+# cp /etc/network.d/eth1 /etc/netctl/
+</code></pre>
+
+<p>Then edit them according to <a href="https://wiki.archlinux.org/index.php/Netctl#Migrating_from_netcfg">Migrating from netcfg</a>.</p>
+
+<p><code># nano -w /etc/netctl/eth0</code></p>
+
+<pre><code>Interface=eth0
+Connection=ethernet
+IP=static
+Address=('&lt;public_ip&gt;/24')
+Gateway='&lt;gateway&gt;'
+DNS=('83.138.151.81' '83.138.151.80')&lt;/pre&gt;
+</code></pre>
+
+<p><code># nano -w /etc/netctl/eth1</code></p>
+
+<pre><code>Interface=eth1
+Connection=ethernet
+IP=static
+Address=('&lt;private_ip&gt;/18')
+DNS=('83.138.151.81' '83.138.151.80')
+</code></pre>
+
+<p>Then enable the profiles, followed by a reboot:</p>
+
+<pre><code># netctl enable eth0
+# netctl enable eth1
+# reboot
+</code></pre>
+
+<h2 id="upgrade-to-the-new-filesystem">Upgrade to the new <code>filesystem</code></h2>
+
+<p>On June 3rd a <a href="https://www.archlinux.org/news/binaries-move-to-usrbin-requiring-update-intervention/">news bulletin</a> came out stating that the filesystem would be changed on the next system upgrade, all binaries will now be placed in <code>/usr/bin</code>. By following the below steps you will not break your Rackspace server like I did.</p>
+
+<p>First upgrade all packages, but <code>filesystem</code> and <code>bash</code>:</p>
+
+<p><code># pacman -Syu --ignore filesystem,bash</code></p>
+
+<p>Remove obsolete packages:</p>
+
+<p><code># pacman -R gen-init-cpio tcp_wrappers</code></p>
+
+<p>Upgrade <code>bash</code>:</p>
+
+<p><code># pacman -S bash</code></p>
+
+<p>Move GRUB binaries and remove old directories:</p>
+
+<pre><code># mv `ls /bin/* /sbin/* /usr/sbin/*` /usr/bin/
+# rmdir /bin/ /sbin/ /usr/sbin/&lt;/span&gt;&lt;/pre&gt;
+</code></pre>
+
+<p>Upgrade the <code>filesystem</code> package:</p>
+
+<p><code># pacman -Su</code></p>
+
+<p>And reboot your system to make sure everything is working:</p>
+
+<p><code># reboot</code></p>
+
+<h2 id="cleaning-up-and-creating-an-image">Cleaning up and creating an image</h2>
+
+<p>At this point you&rsquo;re pretty much up to date with your system, however, there are som orphan packages you probably will do without. Run this command until it responds with <code>error: no targets specified (use -h for help)</code>:</p>
+
+<pre><code># pacman -R `pacman -Qdtq`
+</code></pre>
+
+<p>It&rsquo;s now possible to create a server image to use for creating new servers. Perhaps you first would like to add packages and configurations you probably will do on all your following servers anyway.</p>
+
+<p>I install <code>ntp</code>, <code>mlocate</code>, <code>screen</code> and <code>htop</code>, and configure <code>locales</code>, <code>localtime</code> and <code>bash</code> colours in my basic image.</p>
+
+      </section>
+
+      <footer class="post-card-meta">
+          <img class="author-profile-image" src="https://avatars0.githubusercontent.com/u/1087075" alt="Author" />
+          <span class="post-card-author"><a href="/">Jonas</a></span>
+      </footer>
+    </div>
+</article>
+    </div>
+
+    <nav class="pagination" role="navigation">
+      
+          <a class="newer-posts" href="/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/">&larr; <span class="hide">Next Post</span></a>
+      
+      <span class="page-number">&nbsp;</span>
+      
+          <a class="older-posts" href="/2013/04/17/reinstalling-all-packages-in-arch-linux/"><span class="hide">Previous Post</span> &rarr;</a>
+      
+    </nav>
+
+    
+    
+    
+
+  </div>
+</main>
+
+
+
+<footer class="site-footer outer">
+  <div class="site-footer-content inner">
+    <section class="copyright" style="line-height: 1.3em;">
+      <a href="/">bldn.se</a> - CC BY-SA 4.0 © 2018 <br>
+      <span style="font-size: 0.8em; color: #555;">Hugo port of <a href="https://github.com/TryGhost/Casper">Casper 2.1.7</a> by <a href="https://www.telematika.org">EM</a></span>
+    </section>
+    <nav class="site-footer-nav">
+        <a href="/">Latest Posts</a>
+        <a href="https://www.facebook.com/jonasbollden" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://twitter.com/jonasbollden" target="_blank" rel="noopener">Twitter</a>
+        <a href="https://github.com/jonasbollden" target="_blank" rel="noopener">Github</a>
+        <a href="https://www.linkedin.com/in/jonasbollden" target="_blank" rel="noopener">LinkedIn</a>
+        
+    </nav>  
+  </div>
+</footer>
+
+</div>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/js/jquery.fitvids.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+  <!-- Google Analytics -->
+  <script>
+    var _gaq=[['_setAccount','UA-48225347-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+
+
+
+</body></html>

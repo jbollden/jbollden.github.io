@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Jonas Bolldén</title>
+    <link>/tags/web/</link>
+    <description>Recent content in Web on Jonas Bolldén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 24 Apr 2016 17:18:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ghost on Nginx with Let&#39;s Encrypt certificate</title>
+      <link>/2016/04/24/ghost-on-nginx-with-lets-encrypt-certificate/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>/2016/04/24/ghost-on-nginx-with-lets-encrypt-certificate/</guid>
+      <description>I wanted to secure my Nginx web server with the use of this new free service Let&amp;rsquo;s Encrypt and the people over at DigitalOcean are always busy making sure there&amp;rsquo;s a lot of great tutorials for the rest of us.
+Following the instructions in &amp;ldquo;How To Secure Nginx with Let&amp;rsquo;s Encrypt on Ubuntu 14.04&amp;rdquo; has nos given me HTTPS-capabilities.
+This blog is, at the time of writing, running on Ghost, an awesome node.</description>
+    </item>
+    
+    <item>
+      <title>Upgrading Ghost</title>
+      <link>/2015/12/03/upgrading-ghost/</link>
+      <pubDate>Thu, 03 Dec 2015 08:44:00 +0200</pubDate>
+      
+      <guid>/2015/12/03/upgrading-ghost/</guid>
+      <description>I&amp;rsquo;m not comfortable with the upgrade procedure that&amp;rsquo;s suggested on the support page &amp;ldquo;How to Upgrade Ghost&amp;rdquo;. The following post describes my way of upgrading.
+By monitoring the GitHub page you&amp;rsquo;ll see when there&amp;rsquo;s a new version released.
+Current setup I&amp;rsquo;m running my Ghost blog on a Linux Droplet at DigitalOcean and use a somewhat different procedure to upgrade my Ghost blog to the latest release. The setup is on Nginx much like described in this post with the use of Supervisor to keep Ghost as a service.</description>
+    </item>
+    
+    <item>
+      <title>Theoretical grounds for RESTful APIs</title>
+      <link>/2014/06/10/theoretical-grounds-for-restful-apis/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>/2014/06/10/theoretical-grounds-for-restful-apis/</guid>
+      <description>There is a lot said and written about REST and being RESTful, and in this post I give my two cents when it comes to what theoretical grounds I use when creating RESTful APIs.
+In the year 2000 Roy Thomas Fielding published his dissertation Architectural Styles and the Design of Network-based Software Architectures. The last sentence of the abstract&amp;rsquo;s third paragraph reads:
+ I then introduce the Representational State Transfer (REST) architectural style and describe how REST has been used to guide the design and development of the architecture for the modern Web.</description>
+    </item>
+    
+    <item>
+      <title>SQL Buddy, the unmaintained alternative</title>
+      <link>/2012/11/14/sql-buddy-the-unmaintained-alternative/</link>
+      <pubDate>Wed, 14 Nov 2012 17:46:00 +0200</pubDate>
+      
+      <guid>/2012/11/14/sql-buddy-the-unmaintained-alternative/</guid>
+      <description>If you, as I, think that phpMyAdmin is a useful tool but unnecessarily complex in regards of installation and user experience, then SQL Buddy might be the alternative for you.
+SQL Buddy is a web based administration tool for MySQL written in PHP. This tool is simple to use, yet potent enough to meet all the basic and some of the advanced needs one might have when working with MySQL databases.</description>
+    </item>
+    
+    <item>
+      <title>PHP 5.4.x packs a built-in web server</title>
+      <link>/2012/09/02/php-5-4-x-packs-a-built-in-web-server/</link>
+      <pubDate>Sun, 02 Sep 2012 21:42:00 +0200</pubDate>
+      
+      <guid>/2012/09/02/php-5-4-x-packs-a-built-in-web-server/</guid>
+      <description>New in PHP from version 5.4.x is a built-in web server perfect for use during development. By issuing the following command in a terminal you will be able to serve the content in ~/public_html over port 8080:
+$ php -S 0.0.0.0:8080 -t ~/public_html  A more comprehensive article on the subject can be found at the php.net-site: Built-in web server.
+On a side note you should remember that the built-in server is PHP specific, i.</description>
+    </item>
+    
+    <item>
+      <title>Use latest CodeIgniter in your project</title>
+      <link>/2012/08/12/use-latest-codeigniter-in-your-project/</link>
+      <pubDate>Sun, 12 Aug 2012 15:56:00 +0200</pubDate>
+      
+      <guid>/2012/08/12/use-latest-codeigniter-in-your-project/</guid>
+      <description>The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
+I&amp;rsquo;ll explain how to create, develop and maintain your project through the following steps:
+ Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:</description>
+    </item>
+    
+  </channel>
+</rss>

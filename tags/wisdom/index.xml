@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wisdom on Jonas Bolldén</title>
+    <link>/tags/wisdom/</link>
+    <description>Recent content in Wisdom on Jonas Bolldén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 18 Jan 2017 16:52:10 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/wisdom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Experience as argument</title>
+      <link>/2017/01/18/experience-as-argument/</link>
+      <pubDate>Wed, 18 Jan 2017 16:52:10 +0100</pubDate>
+      
+      <guid>/2017/01/18/experience-as-argument/</guid>
+      <description>This post is as much a suggestion to you as it is a reminder to myself.
+Experiences are important parts of life; it&amp;rsquo;s something we accumulate more or less throughout our lives. Wikipedia reads:
+ Experience is the knowledge or mastery of an event or subject gained through involvement in or exposure to it.1
+ However, there is another side to this which the following quote tries to illustrate:
+ Never argue with an idiot.</description>
+    </item>
+    
+  </channel>
+</rss>

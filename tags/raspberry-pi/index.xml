@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raspberry Pi on Jonas Bolldén</title>
+    <link>/tags/raspberry-pi/</link>
+    <description>Recent content in Raspberry Pi on Jonas Bolldén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 14 Feb 2014 13:54:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/raspberry-pi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>All simple with GetSimple</title>
+      <link>/2014/02/14/all-simple-with-getsimple/</link>
+      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
+      
+      <guid>/2014/02/14/all-simple-with-getsimple/</guid>
+      <description>In moving my personal site from a Rackspace Cloud Server to a Raspberry Pi I was looking for a lightweight substitution for the earlier used CMS concrete5. I found GetSimple CMS:
+ GetSimple is an XML based, stand-a-alone, fully independant and lite Content Management System. To go along with its best-in-class user interface, we have loaded it with features that every website needs, but with nothing it doesn&amp;rsquo;t. GetSimple is truly the simplest way to manage a small-business website.</description>
+    </item>
+    
+    <item>
+      <title>Reinstalling all packages in Arch Linux</title>
+      <link>/2013/04/17/reinstalling-all-packages-in-arch-linux/</link>
+      <pubDate>Wed, 17 Apr 2013 00:53:00 +0200</pubDate>
+      
+      <guid>/2013/04/17/reinstalling-all-packages-in-arch-linux/</guid>
+      <description>I&amp;rsquo;ve been a Gentoo user for years and just recently switched to Arch Linux as my distribution of choice. Since Gentoo is a source based distribution I found that it usually was a good idea to reinstall the packages on the base system.
+Even though Arch Linux is not a source distribution I personally still like to reinstall all packages just to make sure all is well. By combining some of the tips and tricks listed at the wiki page Pacman Tips you could achieve this.</description>
+    </item>
+    
+  </channel>
+</rss>

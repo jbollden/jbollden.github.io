@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Jonas Bolldén</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Jonas Bolldén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 23 Feb 2013 19:10:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apache</title>
+      <link>/tags/apache/</link>
+      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
+      
+      <guid>/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Api</title>
+      <link>/tags/api/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arch Linux</title>
+      <link>/tags/arch-linux/</link>
+      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
+      
+      <guid>/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud</title>
+      <link>/tags/cloud/</link>
+      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
+      
+      <guid>/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Codeigniter</title>
+      <link>/tags/codeigniter/</link>
+      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
+      
+      <guid>/tags/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feedback</title>
+      <link>/tags/feedback/</link>
+      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
+      
+      <guid>/tags/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Framework</title>
+      <link>/tags/framework/</link>
+      <pubDate>Sun, 12 Aug 2012 15:56:00 +0200</pubDate>
+      
+      <guid>/tags/framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getsimple</title>
+      <link>/tags/getsimple/</link>
+      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
+      
+      <guid>/tags/getsimple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ghost</title>
+      <link>/tags/ghost/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>/tags/ghost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Meeting</title>
+      <link>/tags/meeting/</link>
+      <pubDate>Thu, 19 Jan 2017 09:45:42 +0100</pubDate>
+      
+      <guid>/tags/meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Motivation</title>
+      <link>/tags/motivation/</link>
+      <pubDate>Sun, 04 Jun 2017 14:35:00 +0200</pubDate>
+      
+      <guid>/tags/motivation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>/tags/news/</link>
+      <pubDate>Tue, 30 May 2017 12:28:40 +0200</pubDate>
+      
+      <guid>/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nginx</title>
+      <link>/tags/nginx/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pacman</title>
+      <link>/tags/pacman/</link>
+      <pubDate>Wed, 17 Apr 2013 00:53:00 +0200</pubDate>
+      
+      <guid>/tags/pacman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>/tags/php/</link>
+      <pubDate>Sun, 02 Sep 2012 21:42:00 +0200</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rackspace</title>
+      <link>/tags/rackspace/</link>
+      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
+      
+      <guid>/tags/rackspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry Pi</title>
+      <link>/tags/raspberry-pi/</link>
+      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
+      
+      <guid>/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rest</title>
+      <link>/tags/rest/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Restful</title>
+      <link>/tags/restful/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>/tags/restful/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retrospective</title>
+      <link>/tags/retrospective/</link>
+      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
+      
+      <guid>/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roa</title>
+      <link>/tags/roa/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>/tags/roa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scrum</title>
+      <link>/tags/scrum/</link>
+      <pubDate>Thu, 27 Apr 2017 19:00:16 +0200</pubDate>
+      
+      <guid>/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sql</title>
+      <link>/tags/sql/</link>
+      <pubDate>Tue, 04 Dec 2012 15:42:00 +0200</pubDate>
+      
+      <guid>/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssl</title>
+      <link>/tags/ssl/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Time</title>
+      <link>/tags/time/</link>
+      <pubDate>Sat, 24 Sep 2016 07:47:14 +0200</pubDate>
+      
+      <guid>/tags/time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tips</title>
+      <link>/tags/tips/</link>
+      <pubDate>Sun, 04 Jun 2017 14:35:00 +0200</pubDate>
+      
+      <guid>/tags/tips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>/tags/tools/</link>
+      <pubDate>Fri, 11 Mar 2016 17:04:00 +0200</pubDate>
+      
+      <guid>/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web</title>
+      <link>/tags/web/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisdom</title>
+      <link>/tags/wisdom/</link>
+      <pubDate>Wed, 18 Jan 2017 16:52:10 +0100</pubDate>
+      
+      <guid>/tags/wisdom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Work</title>
+      <link>/tags/work/</link>
+      <pubDate>Sun, 04 Jun 2017 14:35:00 +0200</pubDate>
+      
+      <guid>/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Workshop</title>
+      <link>/tags/workshop/</link>
+      <pubDate>Thu, 07 Apr 2016 13:17:00 +0200</pubDate>
+      
+      <guid>/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

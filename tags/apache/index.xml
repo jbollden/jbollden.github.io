@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apache on Jonas Bolldén</title>
+    <link>/tags/apache/</link>
+    <description>Recent content in Apache on Jonas Bolldén</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 23 Feb 2013 19:10:00 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/apache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CodeIgniter introduces $_SERVER[&#39;CI_ENV&#39;]</title>
+      <link>/2013/02/23/codeigniter-introduces-_serverci_env/</link>
+      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
+      
+      <guid>/2013/02/23/codeigniter-introduces-_serverci_env/</guid>
+      <description>On the 3rd of March last year (2012) &amp;lsquo;roberto-butti&amp;rsquo; suggested using a server environment variable to control the value of CodeIgniter&amp;rsquo;s ENVIRONMENT. The full discussion on the issue can be found at GitHub. And in June Phil Sturgeon added logic for this in index.php (see commit).
+By using Apache&amp;rsquo;s SetEnvIf-directive in .htaccess it is possible to set conditional server environment variables.
+Let&amp;rsquo;s say you have three different server environments; production, testing, development and they all resides on different hostnames; www.</description>
+    </item>
+    
+  </channel>
+</rss>
