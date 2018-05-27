@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Rackspace Cloud Backup on Arch 2013.6 - Jonas Bolldén</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Jonas" />
+  <meta name="description" content="Since the applications, data, and services on my Rackspace (this) server is becoming more and more important I decided to look into Rackspace&amp;rsquo;s Cloud Backup service. However, I ran into trouble during the setup of the service, and this article tries to describe how it was solved.
+I followed their guide to Install the Agent. There is an AUR for the driveclient that could be used, but at the moment I&amp;rsquo;m not that keen on using AUR&amp;rsquo;s, and at the time of writing the version in the AUR is also a bit old." />
+
+  <meta name="keywords" content="Jonas, Bolldén" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Rackspace Cloud Backup on Arch 2013.6" />
+<meta property="og:description" content="Since the applications, data, and services on my Rackspace (this) server is becoming more and more important I decided to look into Rackspace&rsquo;s Cloud Backup service. However, I ran into trouble during the setup of the service, and this article tries to describe how it was solved.
+I followed their guide to Install the Agent. There is an AUR for the driveclient that could be used, but at the moment I&rsquo;m not that keen on using AUR&rsquo;s, and at the time of writing the version in the AUR is also a bit old." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/" />
+
+
+
+<meta property="article:published_time" content="2013-08-26T12:02:00&#43;02:00"/>
+
+<meta property="article:modified_time" content="2013-08-26T12:02:00&#43;02:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Rackspace Cloud Backup on Arch 2013.6">
+<meta itemprop="description" content="Since the applications, data, and services on my Rackspace (this) server is becoming more and more important I decided to look into Rackspace&rsquo;s Cloud Backup service. However, I ran into trouble during the setup of the service, and this article tries to describe how it was solved.
+I followed their guide to Install the Agent. There is an AUR for the driveclient that could be used, but at the moment I&rsquo;m not that keen on using AUR&rsquo;s, and at the time of writing the version in the AUR is also a bit old.">
+
+
+<meta itemprop="datePublished" content="2013-08-26T12:02:00&#43;02:00" />
+<meta itemprop="dateModified" content="2013-08-26T12:02:00&#43;02:00" />
+<meta itemprop="wordCount" content="408">
+
+
+
+<meta itemprop="keywords" content="arch linux,cloud,rackspace," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Rackspace Cloud Backup on Arch 2013.6"/>
+<meta name="twitter:description" content="Since the applications, data, and services on my Rackspace (this) server is becoming more and more important I decided to look into Rackspace&rsquo;s Cloud Backup service. However, I ran into trouble during the setup of the service, and this article tries to describe how it was solved.
+I followed their guide to Install the Agent. There is an AUR for the driveclient that could be used, but at the moment I&rsquo;m not that keen on using AUR&rsquo;s, and at the time of writing the version in the AUR is also a bit old."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Jonas Bolldén</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Jonas Bolldén</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Rackspace Cloud Backup on Arch 2013.6</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2013-08-26 </span>
+        
+        <span class="more-meta"> 408 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      <p>Since the applications, data, and services on my Rackspace (this) server is becoming more and more important I decided to look into Rackspace&rsquo;s Cloud Backup service. However, I ran into trouble during the setup of the service, and this article tries to describe how it was solved.</p>
+
+<p>I followed their guide to <a href="http://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-install-the-agent">Install the Agent</a>. There is an <a href="https://aur.archlinux.org/packages/driveclient/">AUR</a> for the <code>driveclient</code> that could be used, but at the moment I&rsquo;m not that keen on using AUR&rsquo;s, and at the time of writing the version in the AUR is also a bit old.</p>
+
+<p>After configuring and starting the <code>driveclient</code> as instructed I went on to the second step <a href="http://www.rackspace.com/knowledge_center/article/rackspace-cloud-backup-create-a-backup-0">Create a Backup</a>. The backup failed and I examined the log file, <code>/var/log/driveclient.log</code> that yielded the following:</p>
+
+<pre><code>[2013-08-26 10:27:24|...|WARN |Http|rax::http::NetworkError::Type rax::HttpClient::ExamineLayer4Errors(474)] HTTP: Connection timed out while waiting for https://snet-storage101.lon3.clouddrive.com/v1.0/MossoCloudFS_ ...
+[2013-08-26 10:27:24|...|ERROR|root|rax::Backup::PerformBackup(202)] Backup: Unable to complete the backup (1486201). Details: 1: [rax::HttpResponse local::&amp;lt;unnamed&amp;gt;::CurlEasyPerformWrapper(CURL*, rax::HttpContext&amp;amp;): 239-rax::HttpResponse local::&amp;lt;unnamed&amp;gt;::CurlEasyPerformWrapper(CURL*, rax::HttpContext&amp;amp;)] Ex Code(2000): Could not perform an HTTP request. Timeout was reached (28)
+[2013-08-26 10:27:24|...|ERROR|root|rax::Backup::MakeReport(332)] Failed to start backup: 1: [rax::HttpResponse local::&amp;lt;unnamed&amp;gt;::CurlEasyPerformWrapper(CURL*, rax::HttpContext&amp;amp;): 239-rax::HttpResponse local::&amp;lt;unnamed&amp;gt;::CurlEasyPerformWrapper(CURL*, rax::HttpContext&amp;amp;)] Ex Code(2000): Could not perform an HTTP request. Timeout was reached (28) Error during backup initialization.
+</code></pre>
+
+<p>This made me turn to the always excellent Customer Support at Rackspace, and it seemed that I were missing some routes. I issued the following commands to add the correct routes to the service net (<code>eth1</code>):</p>
+
+<pre><code># ip route add 10.176/12 via 10.179.64.1
+# ip route add 10.208/12 via 10.179.64.1&lt;/pre&gt;
+</code></pre>
+
+<p>I restarted the backup from Rackspace&rsquo;s Control Panel and it completed successfully.</p>
+
+<p>But after rebooting my server the routes were ones again gone and the backup subsequently failed. At this point I started to examine the <code>netctl</code> profile for <code>eth1</code> (<code>/etc/netctl/eth1</code>). The configuration file stated:</p>
+
+<pre><code>ROUTES=('10.208.0.0/255.240.0.0 via 10.179.64.1 10.176.0.0/255.240.0.0 via 10.179.64.1')
+</code></pre>
+
+<p>which is the <code>netcfg</code> configuratiion. Simply change <code>ROUTES</code> to <code>Routes</code> and, for readablity add <code>'</code> to separate the instructions (<code>netctl</code> will fix this by itself if you don&rsquo;t add the <code>'</code>):</p>
+
+<pre><code>Routes=('10.208.0.0/255.240.0.0 via 10.179.64.1' '10.176.0.0/255.240.0.0 via 10.179.64.1')
+</code></pre>
+
+<p>To finish up the installation of the <code>driveclient</code> I added the following to the service file <code>/etc/systemd/system/driveclient.service</code>:</p>
+
+<pre><code>[Unit]
+Description=Rackspace backup agent
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/driveclient
+
+[Install]
+WantedBy=multi-user.target&lt;/pre&gt;
+</code></pre>
+
+<p>Followed by enabling and starting the service:</p>
+
+<pre><code># systemctl enable driveclient
+# systemctl start driveclient
+</code></pre>
+
+<p>I&rsquo;m told that the Rackspace team is now aware of the problem with the routes configuration for the <code>eth1</code> interface and should not cause any problem when installing a new Arch Linux server.</p>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Jonas</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2013-08-26</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/arch-linux/">arch linux</a>
+          
+          <a href="/tags/cloud/">cloud</a>
+          
+          <a href="/tags/rackspace/">rackspace</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/2014/02/14/all-simple-with-getsimple/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">All simple with GetSimple</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/2013/06/07/updating-arch-2013-2-on-rackspace/">
+            <span class="next-text nav-default">Updating Arch 2013.2 on Rackspace</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:jonas@bollden.se" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/jonasbollden" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.facebook.com/jonasbollden" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="https://linkedin.com/in/jonasbollden" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/jonasbollden" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.instagram.com/jonasbollden/" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2012 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">bldn.se</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-48225347-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

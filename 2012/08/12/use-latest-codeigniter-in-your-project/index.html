@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Use latest CodeIgniter in your project - Jonas Bolldén</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Jonas" />
+  <meta name="description" content="The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
+I&amp;rsquo;ll explain how to create, develop and maintain your project through the following steps:
+ Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:" />
+
+  <meta name="keywords" content="Jonas, Bolldén" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.41" />
+
+
+<link rel="canonical" href="/2012/08/12/use-latest-codeigniter-in-your-project/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Use latest CodeIgniter in your project" />
+<meta property="og:description" content="The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
+I&rsquo;ll explain how to create, develop and maintain your project through the following steps:
+ Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/2012/08/12/use-latest-codeigniter-in-your-project/" />
+
+
+
+<meta property="article:published_time" content="2012-08-12T15:56:00&#43;02:00"/>
+
+<meta property="article:modified_time" content="2012-08-12T15:56:00&#43;02:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Use latest CodeIgniter in your project">
+<meta itemprop="description" content="The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
+I&rsquo;ll explain how to create, develop and maintain your project through the following steps:
+ Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:">
+
+
+<meta itemprop="datePublished" content="2012-08-12T15:56:00&#43;02:00" />
+<meta itemprop="dateModified" content="2012-08-12T15:56:00&#43;02:00" />
+<meta itemprop="wordCount" content="401">
+
+
+
+<meta itemprop="keywords" content="codeigniter,framework,php,web," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Use latest CodeIgniter in your project"/>
+<meta name="twitter:description" content="The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
+I&rsquo;ll explain how to create, develop and maintain your project through the following steps:
+ Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Jonas Bolldén</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Jonas Bolldén</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Use latest CodeIgniter in your project</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2012-08-12 </span>
+        
+        <span class="more-meta"> 401 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#prepare-your-project-area">Prepare your project area</a></li>
+<li><a href="#fetch-latest-codeigniter">Fetch latest CodeIgniter</a></li>
+<li><a href="#copy-directories-and-files">Copy directories and files</a></li>
+<li><a href="#start-development-of-your-project">Start development of your project</a></li>
+<li><a href="#update-codeigniter">Update CodeIgniter</a></li>
+<li><a href="#conclusion">Conclusion</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<p>The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.</p>
+
+<p>I&rsquo;ll explain how to create, develop and maintain your project through the following steps:</p>
+
+<ul>
+<li>Prepare your project area</li>
+<li>Fetch latest CodeIgniter</li>
+<li>Copy directories and files</li>
+<li>Start development of your project</li>
+<li>Update CodeIgniter</li>
+</ul>
+
+<h2 id="prepare-your-project-area">Prepare your project area</h2>
+
+<p>Create a directory that will hold your project and CodeIgniter:</p>
+
+<pre><code>$ mkdir -p Projects/your-project
+</code></pre>
+
+<h2 id="fetch-latest-codeigniter">Fetch latest CodeIgniter</h2>
+
+<p>Use git to get a copy of CodeIgniter from the repository at GitHub:</p>
+
+<pre><code>$ cd Projects
+$ git clone https://github.com/EllisLab/CodeIgniter.git
+</code></pre>
+
+<h2 id="copy-directories-and-files">Copy directories and files</h2>
+
+<p>Now copy the application folder from the cloned CodeIgniter. This is where your development will be done:</p>
+
+<pre><code>$ cp -r CodeIgniter/application your-project/
+</code></pre>
+
+<p>It is also good practice to create a public area where you place the CodeIngniter index.php-file and other public accessible assets (e.g. css, images, scripts):</p>
+
+<pre><code>$ mkdir -p your-project/public/assets
+$ cp CodeIgniter/index.php your-project/public
+</code></pre>
+
+<h2 id="start-development-of-your-project">Start development of your project</h2>
+
+<p>Before starting your development you will need to edit the copied index.php-file. In this file there are two settings that needs your attention; the $system_path and $application_folder. It is possible to use relative paths:</p>
+
+<pre><code>$system_path = '../../CodeIgniter/system';
+$application_folder = '../application';
+</code></pre>
+
+<p>At this point all is set for your development to start.</p>
+
+<h2 id="update-codeigniter">Update CodeIgniter</h2>
+
+<p>Once and a while you&rsquo;ll need to update your fetched version of CodeIgniter, once a week could be a good rule of thumb.</p>
+
+<pre><code>$ cd Projects/CodeIgniter
+$ git pull
+</code></pre>
+
+<p>This will fetch the latest version from the repository, if the response is</p>
+
+<pre><code>Already up-to-date.
+</code></pre>
+
+<p>then all is well. If the git command returns some sort of list then your version has been updated and you need to check if there are any file in the application-folder that has been updated.</p>
+
+<p>For each file in CodeIgniter&rsquo;s application-folder that has been updated you need to merge the changes with the file in your project. Changes are usually small and the merge can usually be done by hand. First use diff to locate what has changed.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The directory tree of the above suggestion looks like this:
+<pre>
+Projects
++&ndash; CodeIgniter
+|   +&ndash; application
+|   +&ndash; system
+|   +&ndash; tests
+|   `&ndash; user_guide_src
+`&ndash; your-project
+    +&ndash; application
+    `&ndash; public
+</pre></p>
+
+<p>And the application-folder in your-project is initially a copy of the application-folder in CodeIgniter.</p>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Jonas</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2012-08-12</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/codeigniter/">codeigniter</a>
+          
+          <a href="/tags/framework/">framework</a>
+          
+          <a href="/tags/php/">php</a>
+          
+          <a href="/tags/web/">web</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/2012/09/02/php-5-4-x-packs-a-built-in-web-server/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">PHP 5.4.x packs a built-in web server</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:jonas@bollden.se" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com/jonasbollden" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.facebook.com/jonasbollden" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="https://linkedin.com/in/jonasbollden" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://github.com/jonasbollden" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.instagram.com/jonasbollden/" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2012 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">bldn.se</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-48225347-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
