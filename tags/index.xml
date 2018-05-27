@@ -5,11 +5,21 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 23 Feb 2013 19:10:00 +0200</lastBuildDate>
+    <language>en</language>
+    <copyright>bldn.se</copyright>
+    <lastBuildDate>Fri, 25 May 2018 16:35:14 +0200</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Agile</title>
+      <link>/tags/agile/</link>
+      <pubDate>Fri, 25 May 2018 16:35:14 +0200</pubDate>
+      
+      <guid>/tags/agile/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Apache</title>
@@ -30,7 +40,7 @@
     </item>
     
     <item>
-      <title>Arch Linux</title>
+      <title>Arch linux</title>
       <link>/tags/arch-linux/</link>
       <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
       
@@ -156,7 +166,7 @@
     </item>
     
     <item>
-      <title>Raspberry Pi</title>
+      <title>Raspberry pi</title>
       <link>/tags/raspberry-pi/</link>
       <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
       

@@ -5,7 +5,8 @@
     <link>/tags/pacman/</link>
     <description>Recent content in Pacman on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en</language>
+    <copyright>bldn.se</copyright>
     <lastBuildDate>Wed, 17 Apr 2013 00:53:00 +0200</lastBuildDate>
     
 	<atom:link href="/tags/pacman/index.xml" rel="self" type="application/rss+xml" />

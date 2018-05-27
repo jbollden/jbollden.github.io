@@ -5,7 +5,8 @@
     <link>/tags/apache/</link>
     <description>Recent content in Apache on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en</language>
+    <copyright>bldn.se</copyright>
     <lastBuildDate>Sat, 23 Feb 2013 19:10:00 +0200</lastBuildDate>
     
 	<atom:link href="/tags/apache/index.xml" rel="self" type="application/rss+xml" />

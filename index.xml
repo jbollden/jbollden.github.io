@@ -5,11 +5,23 @@
     <link>/</link>
     <description>Recent content on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 04 Jun 2017 14:35:00 +0200</lastBuildDate>
+    <language>en</language>
+    <copyright>bldn.se</copyright>
+    <lastBuildDate>Fri, 25 May 2018 16:35:14 +0200</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Finding Modern Agile</title>
+      <link>/2018/05/25/finding-modern-agile/</link>
+      <pubDate>Fri, 25 May 2018 16:35:14 +0200</pubDate>
+      
+      <guid>/2018/05/25/finding-modern-agile/</guid>
+      <description>Being the longtime, die hard Scrum advocate that I know I am, it’s with somewhat mixed emotions I’ve just now discovered Modern Agile.
+ Modern Agile is ultra-light, the opposite of mainstream Agile, which is drowning in a bloated tangle of enterprise tools, scaling frameworks and questionable certificates that yield more bureaucracy than results.1
+ The four principles, values, cornerstones, or whatever you want to call them, are elegant distillations of my beloved Scrum and certainly of all of the agile frameworks and toolboxes:</description>
+    </item>
     
     <item>
       <title>Have fun at work</title>
