@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tools on Jonas Bolldén</title>
-    <link>/tags/tools/</link>
+    <link>https://www.bldn.se/tags/tools/</link>
     <description>Recent content in Tools on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Fri, 11 Mar 2016 17:04:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to conduct a workshop</title>
-      <link>/2016/03/11/how-to-conduct-a-workshop/</link>
+      <link>https://www.bldn.se/2016/03/11/how-to-conduct-a-workshop/</link>
       <pubDate>Fri, 11 Mar 2016 17:04:00 +0200</pubDate>
       
-      <guid>/2016/03/11/how-to-conduct-a-workshop/</guid>
+      <guid>https://www.bldn.se/2016/03/11/how-to-conduct-a-workshop/</guid>
       <description>I was invited to hold a short introduction on how to conduct workshops. The audience was comprised of about 20 persons, in different ways connected to the practice of UX (User experience). I had one hour at my disposal, and I&amp;rsquo;ve tried to summarise my thoughts on the subject in this post.
 Definition A workshop1 is
  a meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.</description>
@@ -25,10 +24,10 @@ Definition A workshop1 is
     
     <item>
       <title>SQL Buddy, the unmaintained alternative</title>
-      <link>/2012/11/14/sql-buddy-the-unmaintained-alternative/</link>
+      <link>https://www.bldn.se/2012/11/14/sql-buddy-the-unmaintained-alternative/</link>
       <pubDate>Wed, 14 Nov 2012 17:46:00 +0200</pubDate>
       
-      <guid>/2012/11/14/sql-buddy-the-unmaintained-alternative/</guid>
+      <guid>https://www.bldn.se/2012/11/14/sql-buddy-the-unmaintained-alternative/</guid>
       <description>If you, as I, think that phpMyAdmin is a useful tool but unnecessarily complex in regards of installation and user experience, then SQL Buddy might be the alternative for you.
 SQL Buddy is a web based administration tool for MySQL written in PHP. This tool is simple to use, yet potent enough to meet all the basic and some of the advanced needs one might have when working with MySQL databases.</description>
     </item>

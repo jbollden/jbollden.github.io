@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Framework on Jonas Bolldén</title>
-    <link>/tags/framework/</link>
+    <link>https://www.bldn.se/tags/framework/</link>
     <description>Recent content in Framework on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 12 Aug 2012 15:56:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/framework/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/framework/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Use latest CodeIgniter in your project</title>
-      <link>/2012/08/12/use-latest-codeigniter-in-your-project/</link>
+      <link>https://www.bldn.se/2012/08/12/use-latest-codeigniter-in-your-project/</link>
       <pubDate>Sun, 12 Aug 2012 15:56:00 +0200</pubDate>
       
-      <guid>/2012/08/12/use-latest-codeigniter-in-your-project/</guid>
+      <guid>https://www.bldn.se/2012/08/12/use-latest-codeigniter-in-your-project/</guid>
       <description>The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
 I&amp;rsquo;ll explain how to create, develop and maintain your project through the following steps:
  Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:</description>

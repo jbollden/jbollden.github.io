@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meeting on Jonas Bolldén</title>
-    <link>/tags/meeting/</link>
+    <link>https://www.bldn.se/tags/meeting/</link>
     <description>Recent content in Meeting on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Thu, 19 Jan 2017 09:45:42 +0100</lastBuildDate>
     
-	<atom:link href="/tags/meeting/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/meeting/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>More effective meetings</title>
-      <link>/2017/01/19/more-effective-meetings/</link>
+      <link>https://www.bldn.se/2017/01/19/more-effective-meetings/</link>
       <pubDate>Thu, 19 Jan 2017 09:45:42 +0100</pubDate>
       
-      <guid>/2017/01/19/more-effective-meetings/</guid>
+      <guid>https://www.bldn.se/2017/01/19/more-effective-meetings/</guid>
       <description>In a constant search for improvement, here is a suggestion on what to consider when it comes to meetings.
 Basic principle Respect should always serve as the basic principle, and there is no difference when it comes to meetings.
 Meet or not to meet? The first question to ask is always &amp;ldquo;Why a meeting?&amp;rdquo;. The answer creates the basis for the meeting&amp;rsquo;s purpose. E.g., is it some sort of one-way communication it may in many cases be enough to send the information via e-mail instead of setting up a meeting where perhaps only a few people are actively involved.</description>
@@ -25,10 +24,10 @@ Meet or not to meet? The first question to ask is always &amp;ldquo;Why a meetin
     
     <item>
       <title>Let&#39;s meet, on time!</title>
-      <link>/2016/09/24/lets-meet-on-time/</link>
+      <link>https://www.bldn.se/2016/09/24/lets-meet-on-time/</link>
       <pubDate>Sat, 24 Sep 2016 07:47:14 +0200</pubDate>
       
-      <guid>/2016/09/24/lets-meet-on-time/</guid>
+      <guid>https://www.bldn.se/2016/09/24/lets-meet-on-time/</guid>
       <description>The other day I read the great &amp;ldquo;Two Simple Secrets to Starting Every Meeting on Time&amp;rdquo;. Here @sabinanawaz presents two simple rules on &amp;ldquo;how to save time in meetings and be even more productive&amp;rdquo;:
  Meet for 45 minutes instead of an hour. Start meetings at quarter past the hour.  One could say I&amp;rsquo;ve used the first rule for quite some time, but the meetings were set for 50 minutes.</description>
     </item>

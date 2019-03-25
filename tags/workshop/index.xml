@@ -2,32 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Workshop on Jonas Bolldén</title>
-    <link>/tags/workshop/</link>
+    <link>https://www.bldn.se/tags/workshop/</link>
     <description>Recent content in Workshop on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Thu, 07 Apr 2016 13:17:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Scrum - finding a baseline</title>
-      <link>/2016/04/07/scrum-finding-a-baseline/</link>
+      <link>https://www.bldn.se/2016/04/07/scrum-finding-a-baseline/</link>
       <pubDate>Thu, 07 Apr 2016 13:17:00 +0200</pubDate>
       
-      <guid>/2016/04/07/scrum-finding-a-baseline/</guid>
+      <guid>https://www.bldn.se/2016/04/07/scrum-finding-a-baseline/</guid>
       <description>Yesterday I had the privilege to run a workshop with nine engaged participants, all from the same company and all in some way working with Scrum. Most of the participants knew each other from before and the gathering was held at a conference centre away from the office.
 The purpose of the gathering was to create a boilerplate of interested persons that can help their company become more fluent in Scrum.</description>
     </item>
     
     <item>
       <title>How to conduct a workshop</title>
-      <link>/2016/03/11/how-to-conduct-a-workshop/</link>
+      <link>https://www.bldn.se/2016/03/11/how-to-conduct-a-workshop/</link>
       <pubDate>Fri, 11 Mar 2016 17:04:00 +0200</pubDate>
       
-      <guid>/2016/03/11/how-to-conduct-a-workshop/</guid>
+      <guid>https://www.bldn.se/2016/03/11/how-to-conduct-a-workshop/</guid>
       <description>I was invited to hold a short introduction on how to conduct workshops. The audience was comprised of about 20 persons, in different ways connected to the practice of UX (User experience). I had one hour at my disposal, and I&amp;rsquo;ve tried to summarise my thoughts on the subject in this post.
 Definition A workshop1 is
  a meeting at which a group of people engage in intensive discussion and activity on a particular subject or project.</description>

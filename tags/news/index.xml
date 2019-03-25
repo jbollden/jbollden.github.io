@@ -2,32 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on Jonas Bolldén</title>
-    <link>/tags/news/</link>
+    <link>https://www.bldn.se/tags/news/</link>
     <description>Recent content in News on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Tue, 30 May 2017 12:28:40 +0200</lastBuildDate>
     
-	<atom:link href="/tags/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Next step, new challenge</title>
-      <link>/2017/05/30/next-step-new-challenge/</link>
+      <link>https://www.bldn.se/2017/05/30/next-step-new-challenge/</link>
       <pubDate>Tue, 30 May 2017 12:28:40 +0200</pubDate>
       
-      <guid>/2017/05/30/next-step-new-challenge/</guid>
+      <guid>https://www.bldn.se/2017/05/30/next-step-new-challenge/</guid>
       <description>I’ve been given this amazing opportunity that would be outright stupid to turn down, and I’m usually not stupid. I’ll be taking on the position as team manager at the consultancy Sogeti here in Luleå. I’m looking forward to return to my old firm where I spent five years and eight months at the office of Linköping.
 Through this I will of course be putting myself to the test. As always, I’m humbled before the task(s) at hand, but I believe I can do some good together with my new colleagues.</description>
     </item>
     
     <item>
       <title>Breaking news: Change of scenery</title>
-      <link>/2016/05/19/breaking-news-change-of-scenery/</link>
+      <link>https://www.bldn.se/2016/05/19/breaking-news-change-of-scenery/</link>
       <pubDate>Thu, 19 May 2016 16:12:00 +0200</pubDate>
       
-      <guid>/2016/05/19/breaking-news-change-of-scenery/</guid>
+      <guid>https://www.bldn.se/2016/05/19/breaking-news-change-of-scenery/</guid>
       <description>Both me and my wife have been recruited by Luleå University of Technology. As of September 1st she will begin her work as a Educational Developer with special responsibility for Information and Communication Technology (ICT) at University Pedagogy Centre (HPC), and I as a Project Manager at IT Services (ITS) with responsibilities for the public and portal websites. We are both very grateful for these opportunities and look forward to start a new and exiting chapter in our lives.</description>
     </item>
     

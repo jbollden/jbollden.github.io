@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Time on Jonas Bolldén</title>
-    <link>/tags/time/</link>
+    <link>https://www.bldn.se/tags/time/</link>
     <description>Recent content in Time on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sat, 24 Sep 2016 07:47:14 +0200</lastBuildDate>
     
-	<atom:link href="/tags/time/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/time/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Let&#39;s meet, on time!</title>
-      <link>/2016/09/24/lets-meet-on-time/</link>
+      <link>https://www.bldn.se/2016/09/24/lets-meet-on-time/</link>
       <pubDate>Sat, 24 Sep 2016 07:47:14 +0200</pubDate>
       
-      <guid>/2016/09/24/lets-meet-on-time/</guid>
+      <guid>https://www.bldn.se/2016/09/24/lets-meet-on-time/</guid>
       <description>The other day I read the great &amp;ldquo;Two Simple Secrets to Starting Every Meeting on Time&amp;rdquo;. Here @sabinanawaz presents two simple rules on &amp;ldquo;how to save time in meetings and be even more productive&amp;rdquo;:
  Meet for 45 minutes instead of an hour. Start meetings at quarter past the hour.  One could say I&amp;rsquo;ve used the first rule for quite some time, but the meetings were set for 50 minutes.</description>
     </item>

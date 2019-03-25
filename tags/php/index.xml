@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Php on Jonas Bolldén</title>
-    <link>/tags/php/</link>
+    <link>https://www.bldn.se/tags/php/</link>
     <description>Recent content in Php on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 02 Sep 2012 21:42:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/php/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/php/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>PHP 5.4.x packs a built-in web server</title>
-      <link>/2012/09/02/php-5-4-x-packs-a-built-in-web-server/</link>
+      <link>https://www.bldn.se/2012/09/02/php-5-4-x-packs-a-built-in-web-server/</link>
       <pubDate>Sun, 02 Sep 2012 21:42:00 +0200</pubDate>
       
-      <guid>/2012/09/02/php-5-4-x-packs-a-built-in-web-server/</guid>
+      <guid>https://www.bldn.se/2012/09/02/php-5-4-x-packs-a-built-in-web-server/</guid>
       <description>New in PHP from version 5.4.x is a built-in web server perfect for use during development. By issuing the following command in a terminal you will be able to serve the content in ~/public_html over port 8080:
 $ php -S 0.0.0.0:8080 -t ~/public_html  A more comprehensive article on the subject can be found at the php.net-site: Built-in web server.
 On a side note you should remember that the built-in server is PHP specific, i.</description>
@@ -25,10 +24,10 @@ On a side note you should remember that the built-in server is PHP specific, i.<
     
     <item>
       <title>Use latest CodeIgniter in your project</title>
-      <link>/2012/08/12/use-latest-codeigniter-in-your-project/</link>
+      <link>https://www.bldn.se/2012/08/12/use-latest-codeigniter-in-your-project/</link>
       <pubDate>Sun, 12 Aug 2012 15:56:00 +0200</pubDate>
       
-      <guid>/2012/08/12/use-latest-codeigniter-in-your-project/</guid>
+      <guid>https://www.bldn.se/2012/08/12/use-latest-codeigniter-in-your-project/</guid>
       <description>The development branch of the PHP framework CodeIgniter resides on GitHub and can be cloned by anyone. This article will outline a suggestion on how to set up a project that is continuously based on the latest version available in the repository.
 I&amp;rsquo;ll explain how to create, develop and maintain your project through the following steps:
  Prepare your project area Fetch latest CodeIgniter Copy directories and files Start development of your project Update CodeIgniter  Prepare your project area Create a directory that will hold your project and CodeIgniter:</description>

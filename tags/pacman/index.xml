@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pacman on Jonas Bolldén</title>
-    <link>/tags/pacman/</link>
+    <link>https://www.bldn.se/tags/pacman/</link>
     <description>Recent content in Pacman on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Wed, 17 Apr 2013 00:53:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Reinstalling all packages in Arch Linux</title>
-      <link>/2013/04/17/reinstalling-all-packages-in-arch-linux/</link>
+      <link>https://www.bldn.se/2013/04/17/reinstalling-all-packages-in-arch-linux/</link>
       <pubDate>Wed, 17 Apr 2013 00:53:00 +0200</pubDate>
       
-      <guid>/2013/04/17/reinstalling-all-packages-in-arch-linux/</guid>
+      <guid>https://www.bldn.se/2013/04/17/reinstalling-all-packages-in-arch-linux/</guid>
       <description>I&amp;rsquo;ve been a Gentoo user for years and just recently switched to Arch Linux as my distribution of choice. Since Gentoo is a source based distribution I found that it usually was a good idea to reinstall the packages on the base system.
 Even though Arch Linux is not a source distribution I personally still like to reinstall all packages just to make sure all is well. By combining some of the tips and tricks listed at the wiki page Pacman Tips you could achieve this.</description>
     </item>

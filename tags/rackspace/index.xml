@@ -2,32 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rackspace on Jonas Bolldén</title>
-    <link>/tags/rackspace/</link>
+    <link>https://www.bldn.se/tags/rackspace/</link>
     <description>Recent content in Rackspace on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Mon, 26 Aug 2013 12:02:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/rackspace/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/rackspace/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Rackspace Cloud Backup on Arch 2013.6</title>
-      <link>/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/</link>
+      <link>https://www.bldn.se/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/</link>
       <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
       
-      <guid>/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/</guid>
+      <guid>https://www.bldn.se/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/</guid>
       <description>Since the applications, data, and services on my Rackspace (this) server is becoming more and more important I decided to look into Rackspace&amp;rsquo;s Cloud Backup service. However, I ran into trouble during the setup of the service, and this article tries to describe how it was solved.
 I followed their guide to Install the Agent. There is an AUR for the driveclient that could be used, but at the moment I&amp;rsquo;m not that keen on using AUR&amp;rsquo;s, and at the time of writing the version in the AUR is also a bit old.</description>
     </item>
     
     <item>
       <title>Updating Arch 2013.2 on Rackspace</title>
-      <link>/2013/06/07/updating-arch-2013-2-on-rackspace/</link>
+      <link>https://www.bldn.se/2013/06/07/updating-arch-2013-2-on-rackspace/</link>
       <pubDate>Fri, 07 Jun 2013 07:51:00 +0200</pubDate>
       
-      <guid>/2013/06/07/updating-arch-2013-2-on-rackspace/</guid>
+      <guid>https://www.bldn.se/2013/06/07/updating-arch-2013-2-on-rackspace/</guid>
       <description>With June 3rd came an update for Arch Linux that gave me some server trouble I couldn&amp;rsquo;t recover from. I had to start my Rackspace server in Rescue Mode to get my data back (files and databases). On the upside I found that Rackspace had upgraded the image to build from, now it&amp;rsquo;s &amp;ldquo;Arch 2013.2&amp;rdquo;. So I rebuilt the server from that image. This article describes how I upgraded the server and created a new image that could be used for creating new servers on Rackspace.</description>
     </item>
     

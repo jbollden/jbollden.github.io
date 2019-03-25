@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Api on Jonas Bolldén</title>
-    <link>/tags/api/</link>
+    <link>https://www.bldn.se/tags/api/</link>
     <description>Recent content in Api on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Tue, 10 Jun 2014 16:35:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/api/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Theoretical grounds for RESTful APIs</title>
-      <link>/2014/06/10/theoretical-grounds-for-restful-apis/</link>
+      <link>https://www.bldn.se/2014/06/10/theoretical-grounds-for-restful-apis/</link>
       <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
       
-      <guid>/2014/06/10/theoretical-grounds-for-restful-apis/</guid>
+      <guid>https://www.bldn.se/2014/06/10/theoretical-grounds-for-restful-apis/</guid>
       <description>There is a lot said and written about REST and being RESTful, and in this post I give my two cents when it comes to what theoretical grounds I use when creating RESTful APIs.
 In the year 2000 Roy Thomas Fielding published his dissertation Architectural Styles and the Design of Network-based Software Architectures. The last sentence of the abstract&amp;rsquo;s third paragraph reads:
  I then introduce the Representational State Transfer (REST) architectural style and describe how REST has been used to guide the design and development of the architecture for the modern Web.</description>

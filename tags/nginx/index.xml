@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nginx on Jonas Bolldén</title>
-    <link>/tags/nginx/</link>
+    <link>https://www.bldn.se/tags/nginx/</link>
     <description>Recent content in Nginx on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>bldn.se</copyright>
+    <language>en-us</language>
     <lastBuildDate>Sun, 24 Apr 2016 17:18:00 +0200</lastBuildDate>
     
-	<atom:link href="/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.bldn.se/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Ghost on Nginx with Let&#39;s Encrypt certificate</title>
-      <link>/2016/04/24/ghost-on-nginx-with-lets-encrypt-certificate/</link>
+      <link>https://www.bldn.se/2016/04/24/ghost-on-nginx-with-lets-encrypt-certificate/</link>
       <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
       
-      <guid>/2016/04/24/ghost-on-nginx-with-lets-encrypt-certificate/</guid>
+      <guid>https://www.bldn.se/2016/04/24/ghost-on-nginx-with-lets-encrypt-certificate/</guid>
       <description>I wanted to secure my Nginx web server with the use of this new free service Let&amp;rsquo;s Encrypt and the people over at DigitalOcean are always busy making sure there&amp;rsquo;s a lot of great tutorials for the rest of us.
 Following the instructions in &amp;ldquo;How To Secure Nginx with Let&amp;rsquo;s Encrypt on Ubuntu 14.04&amp;rdquo; has nos given me HTTPS-capabilities.
 This blog is, at the time of writing, running on Ghost, an awesome node.</description>
@@ -25,10 +24,10 @@ This blog is, at the time of writing, running on Ghost, an awesome node.</descri
     
     <item>
       <title>All simple with GetSimple</title>
-      <link>/2014/02/14/all-simple-with-getsimple/</link>
+      <link>https://www.bldn.se/2014/02/14/all-simple-with-getsimple/</link>
       <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
       
-      <guid>/2014/02/14/all-simple-with-getsimple/</guid>
+      <guid>https://www.bldn.se/2014/02/14/all-simple-with-getsimple/</guid>
       <description>In moving my personal site from a Rackspace Cloud Server to a Raspberry Pi I was looking for a lightweight substitution for the earlier used CMS concrete5. I found GetSimple CMS:
  GetSimple is an XML based, stand-a-alone, fully independant and lite Content Management System. To go along with its best-in-class user interface, we have loaded it with features that every website needs, but with nothing it doesn&amp;rsquo;t. GetSimple is truly the simplest way to manage a small-business website.</description>
     </item>
