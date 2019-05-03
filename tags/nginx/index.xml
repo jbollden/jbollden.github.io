@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nginx on Jonas Bolldén</title>
+    <title>nginx on Jonas Bolldén</title>
     <link>https://www.bldn.se/tags/nginx/</link>
-    <description>Recent content in Nginx on Jonas Bolldén</description>
+    <description>Recent content in nginx on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Apr 2016 17:18:00 +0200</lastBuildDate>

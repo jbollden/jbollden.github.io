@@ -10,10 +10,52 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/</loc>
+    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/posts/</loc>
+    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/</loc>
+    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/agile/</loc>
+    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2017/06/04/have-fun-at-work/</loc>
     <lastmod>2017-06-04T14:35:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/motivation/</loc>
+    <lastmod>2017-06-04T14:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/tips/</loc>
+    <lastmod>2017-06-04T14:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/work/</loc>
+    <lastmod>2017-06-04T14:35:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -24,10 +66,22 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/news/</loc>
+    <lastmod>2017-05-30T12:28:40+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2017/04/27/let-scrum-masters-be-scrum-masters/</loc>
     <lastmod>2017-04-27T19:00:16+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/scrum/</loc>
+    <lastmod>2017-04-27T19:00:16+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -38,10 +92,22 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/meeting/</loc>
+    <lastmod>2017-01-19T09:45:42+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2017/01/18/experience-as-argument/</loc>
     <lastmod>2017-01-18T16:52:10+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/wisdom/</loc>
+    <lastmod>2017-01-18T16:52:10+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -52,10 +118,28 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/feedback/</loc>
+    <lastmod>2016-09-30T16:39:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/retrospective/</loc>
+    <lastmod>2016-09-30T16:39:29+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2016/09/24/lets-meet-on-time/</loc>
     <lastmod>2016-09-24T07:47:14+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/time/</loc>
+    <lastmod>2016-09-24T07:47:14+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -101,6 +185,30 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/ghost/</loc>
+    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/nginx/</loc>
+    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/ssl/</loc>
+    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/web/</loc>
+    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2016/04/07/scrum-finding-a-baseline/</loc>
     <lastmod>2016-04-07T13:17:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -108,10 +216,22 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/workshop/</loc>
+    <lastmod>2016-04-07T13:17:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2016/03/11/how-to-conduct-a-workshop/</loc>
     <lastmod>2016-03-11T17:04:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/tools/</loc>
+    <lastmod>2016-03-11T17:04:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -171,6 +291,30 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/api/</loc>
+    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/rest/</loc>
+    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/restful/</loc>
+    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/roa/</loc>
+    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2014/02/14/all-simple-with-getsimple/</loc>
     <lastmod>2014-02-14T13:54:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -178,10 +322,40 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/getsimple/</loc>
+    <lastmod>2014-02-14T13:54:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/raspberry-pi/</loc>
+    <lastmod>2014-02-14T13:54:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/</loc>
     <lastmod>2013-08-26T12:02:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/arch-linux/</loc>
+    <lastmod>2013-08-26T12:02:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/cloud/</loc>
+    <lastmod>2013-08-26T12:02:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/rackspace/</loc>
+    <lastmod>2013-08-26T12:02:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -199,6 +373,12 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/pacman/</loc>
+    <lastmod>2013-04-17T00:53:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2013/02/23/codeigniter-introduces-_serverci_env/</loc>
     <lastmod>2013-02-23T19:10:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -206,10 +386,28 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/apache/</loc>
+    <lastmod>2013-02-23T19:10:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/codeigniter/</loc>
+    <lastmod>2013-02-23T19:10:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2012/12/04/sorting-in-sql/</loc>
     <lastmod>2012-12-04T15:42:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/tags/sql/</loc>
+    <lastmod>2012-12-04T15:42:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -227,6 +425,12 @@
   </url>
   
   <url>
+    <loc>https://www.bldn.se/tags/php/</loc>
+    <lastmod>2012-09-02T21:42:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.bldn.se/2012/08/12/use-latest-codeigniter-in-your-project/</loc>
     <lastmod>2012-08-12T15:56:00+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -234,253 +438,13 @@
   </url>
   
   <url>
-    <loc>https://www.bldn.se/tags/agile/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/apache/</loc>
-    <lastmod>2013-02-23T19:10:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/api/</loc>
-    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/arch-linux/</loc>
-    <lastmod>2013-08-26T12:02:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.bldn.se/tags/framework/</loc>
+    <lastmod>2012-08-12T15:56:00+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.bldn.se/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/cloud/</loc>
-    <lastmod>2013-08-26T12:02:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/codeigniter/</loc>
-    <lastmod>2013-02-23T19:10:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/feedback/</loc>
-    <lastmod>2016-09-30T16:39:29+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/framework/</loc>
-    <lastmod>2012-08-12T15:56:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/getsimple/</loc>
-    <lastmod>2014-02-14T13:54:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/ghost/</loc>
-    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/meeting/</loc>
-    <lastmod>2017-01-19T09:45:42+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/motivation/</loc>
-    <lastmod>2017-06-04T14:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/news/</loc>
-    <lastmod>2017-05-30T12:28:40+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/nginx/</loc>
-    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/pacman/</loc>
-    <lastmod>2013-04-17T00:53:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/php/</loc>
-    <lastmod>2012-09-02T21:42:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/posts/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/rackspace/</loc>
-    <lastmod>2013-08-26T12:02:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/raspberry-pi/</loc>
-    <lastmod>2014-02-14T13:54:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/rest/</loc>
-    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/restful/</loc>
-    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/retrospective/</loc>
-    <lastmod>2016-09-30T16:39:29+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/roa/</loc>
-    <lastmod>2014-06-10T16:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/scrum/</loc>
-    <lastmod>2017-04-27T19:00:16+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/sql/</loc>
-    <lastmod>2012-12-04T15:42:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/ssl/</loc>
-    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/time/</loc>
-    <lastmod>2016-09-24T07:47:14+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/tips/</loc>
-    <lastmod>2017-06-04T14:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/tools/</loc>
-    <lastmod>2016-03-11T17:04:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/web/</loc>
-    <lastmod>2016-04-24T17:18:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/wisdom/</loc>
-    <lastmod>2017-01-18T16:52:10+01:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/work/</loc>
-    <lastmod>2017-06-04T14:35:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.bldn.se/tags/workshop/</loc>
-    <lastmod>2016-04-07T13:17:00+02:00</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   

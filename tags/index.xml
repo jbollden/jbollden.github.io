@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>Agile</title>
+      <title>agile</title>
       <link>https://www.bldn.se/tags/agile/</link>
       <pubDate>Fri, 25 May 2018 16:35:14 +0200</pubDate>
       
@@ -21,97 +21,7 @@
     </item>
     
     <item>
-      <title>Apache</title>
-      <link>https://www.bldn.se/tags/apache/</link>
-      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/apache/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Api</title>
-      <link>https://www.bldn.se/tags/api/</link>
-      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Arch Linux</title>
-      <link>https://www.bldn.se/tags/arch-linux/</link>
-      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud</title>
-      <link>https://www.bldn.se/tags/cloud/</link>
-      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Codeigniter</title>
-      <link>https://www.bldn.se/tags/codeigniter/</link>
-      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/codeigniter/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Feedback</title>
-      <link>https://www.bldn.se/tags/feedback/</link>
-      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/feedback/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Framework</title>
-      <link>https://www.bldn.se/tags/framework/</link>
-      <pubDate>Sun, 12 Aug 2012 15:56:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/framework/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Getsimple</title>
-      <link>https://www.bldn.se/tags/getsimple/</link>
-      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/getsimple/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ghost</title>
-      <link>https://www.bldn.se/tags/ghost/</link>
-      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/ghost/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Meeting</title>
-      <link>https://www.bldn.se/tags/meeting/</link>
-      <pubDate>Thu, 19 Jan 2017 09:45:42 +0100</pubDate>
-      
-      <guid>https://www.bldn.se/tags/meeting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Motivation</title>
+      <title>motivation</title>
       <link>https://www.bldn.se/tags/motivation/</link>
       <pubDate>Sun, 04 Jun 2017 14:35:00 +0200</pubDate>
       
@@ -120,133 +30,7 @@
     </item>
     
     <item>
-      <title>News</title>
-      <link>https://www.bldn.se/tags/news/</link>
-      <pubDate>Tue, 30 May 2017 12:28:40 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nginx</title>
-      <link>https://www.bldn.se/tags/nginx/</link>
-      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/nginx/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pacman</title>
-      <link>https://www.bldn.se/tags/pacman/</link>
-      <pubDate>Wed, 17 Apr 2013 00:53:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/pacman/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Php</title>
-      <link>https://www.bldn.se/tags/php/</link>
-      <pubDate>Sun, 02 Sep 2012 21:42:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/php/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rackspace</title>
-      <link>https://www.bldn.se/tags/rackspace/</link>
-      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/rackspace/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Raspberry Pi</title>
-      <link>https://www.bldn.se/tags/raspberry-pi/</link>
-      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/raspberry-pi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rest</title>
-      <link>https://www.bldn.se/tags/rest/</link>
-      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/rest/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Restful</title>
-      <link>https://www.bldn.se/tags/restful/</link>
-      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/restful/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Retrospective</title>
-      <link>https://www.bldn.se/tags/retrospective/</link>
-      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/retrospective/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Roa</title>
-      <link>https://www.bldn.se/tags/roa/</link>
-      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/roa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Scrum</title>
-      <link>https://www.bldn.se/tags/scrum/</link>
-      <pubDate>Thu, 27 Apr 2017 19:00:16 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/scrum/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sql</title>
-      <link>https://www.bldn.se/tags/sql/</link>
-      <pubDate>Tue, 04 Dec 2012 15:42:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/sql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ssl</title>
-      <link>https://www.bldn.se/tags/ssl/</link>
-      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/ssl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Time</title>
-      <link>https://www.bldn.se/tags/time/</link>
-      <pubDate>Sat, 24 Sep 2016 07:47:14 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/time/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tips</title>
+      <title>tips</title>
       <link>https://www.bldn.se/tags/tips/</link>
       <pubDate>Sun, 04 Jun 2017 14:35:00 +0200</pubDate>
       
@@ -255,34 +39,7 @@
     </item>
     
     <item>
-      <title>Tools</title>
-      <link>https://www.bldn.se/tags/tools/</link>
-      <pubDate>Fri, 11 Mar 2016 17:04:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web</title>
-      <link>https://www.bldn.se/tags/web/</link>
-      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
-      
-      <guid>https://www.bldn.se/tags/web/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wisdom</title>
-      <link>https://www.bldn.se/tags/wisdom/</link>
-      <pubDate>Wed, 18 Jan 2017 16:52:10 +0100</pubDate>
-      
-      <guid>https://www.bldn.se/tags/wisdom/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Work</title>
+      <title>work</title>
       <link>https://www.bldn.se/tags/work/</link>
       <pubDate>Sun, 04 Jun 2017 14:35:00 +0200</pubDate>
       
@@ -291,11 +48,254 @@
     </item>
     
     <item>
-      <title>Workshop</title>
+      <title>news</title>
+      <link>https://www.bldn.se/tags/news/</link>
+      <pubDate>Tue, 30 May 2017 12:28:40 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrum</title>
+      <link>https://www.bldn.se/tags/scrum/</link>
+      <pubDate>Thu, 27 Apr 2017 19:00:16 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meeting</title>
+      <link>https://www.bldn.se/tags/meeting/</link>
+      <pubDate>Thu, 19 Jan 2017 09:45:42 +0100</pubDate>
+      
+      <guid>https://www.bldn.se/tags/meeting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wisdom</title>
+      <link>https://www.bldn.se/tags/wisdom/</link>
+      <pubDate>Wed, 18 Jan 2017 16:52:10 +0100</pubDate>
+      
+      <guid>https://www.bldn.se/tags/wisdom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feedback</title>
+      <link>https://www.bldn.se/tags/feedback/</link>
+      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/feedback/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>retrospective</title>
+      <link>https://www.bldn.se/tags/retrospective/</link>
+      <pubDate>Fri, 30 Sep 2016 16:39:29 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/retrospective/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>time</title>
+      <link>https://www.bldn.se/tags/time/</link>
+      <pubDate>Sat, 24 Sep 2016 07:47:14 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/time/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ghost</title>
+      <link>https://www.bldn.se/tags/ghost/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/ghost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nginx</title>
+      <link>https://www.bldn.se/tags/nginx/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssl</title>
+      <link>https://www.bldn.se/tags/ssl/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://www.bldn.se/tags/web/</link>
+      <pubDate>Sun, 24 Apr 2016 17:18:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
       <link>https://www.bldn.se/tags/workshop/</link>
       <pubDate>Thu, 07 Apr 2016 13:17:00 +0200</pubDate>
       
       <guid>https://www.bldn.se/tags/workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tools</title>
+      <link>https://www.bldn.se/tags/tools/</link>
+      <pubDate>Fri, 11 Mar 2016 17:04:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api</title>
+      <link>https://www.bldn.se/tags/api/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rest</title>
+      <link>https://www.bldn.se/tags/rest/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/rest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>restful</title>
+      <link>https://www.bldn.se/tags/restful/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/restful/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>roa</title>
+      <link>https://www.bldn.se/tags/roa/</link>
+      <pubDate>Tue, 10 Jun 2014 16:35:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/roa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>getsimple</title>
+      <link>https://www.bldn.se/tags/getsimple/</link>
+      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/getsimple/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry pi</title>
+      <link>https://www.bldn.se/tags/raspberry-pi/</link>
+      <pubDate>Fri, 14 Feb 2014 13:54:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>arch linux</title>
+      <link>https://www.bldn.se/tags/arch-linux/</link>
+      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/arch-linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cloud</title>
+      <link>https://www.bldn.se/tags/cloud/</link>
+      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rackspace</title>
+      <link>https://www.bldn.se/tags/rackspace/</link>
+      <pubDate>Mon, 26 Aug 2013 12:02:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/rackspace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pacman</title>
+      <link>https://www.bldn.se/tags/pacman/</link>
+      <pubDate>Wed, 17 Apr 2013 00:53:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/pacman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>apache</title>
+      <link>https://www.bldn.se/tags/apache/</link>
+      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/apache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>codeigniter</title>
+      <link>https://www.bldn.se/tags/codeigniter/</link>
+      <pubDate>Sat, 23 Feb 2013 19:10:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/codeigniter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>https://www.bldn.se/tags/sql/</link>
+      <pubDate>Tue, 04 Dec 2012 15:42:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/sql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>https://www.bldn.se/tags/php/</link>
+      <pubDate>Sun, 02 Sep 2012 21:42:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>framework</title>
+      <link>https://www.bldn.se/tags/framework/</link>
+      <pubDate>Sun, 12 Aug 2012 15:56:00 +0200</pubDate>
+      
+      <guid>https://www.bldn.se/tags/framework/</guid>
       <description></description>
     </item>
     
