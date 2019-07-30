@@ -3,22 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.bldn.se/2018/05/25/finding-modern-agile/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.bldn.se/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <lastmod>2019-07-30T10:31:09+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.bldn.se/posts/</loc>
-    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <lastmod>2019-07-30T10:31:09+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/2019/07/30/power-of-the-tribe/</loc>
+    <lastmod>2019-07-30T10:31:09+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/2018/05/25/finding-modern-agile/</loc>
+    <lastmod>2018-05-25T16:35:14+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
