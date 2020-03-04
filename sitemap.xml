@@ -3,13 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.bldn.se/</loc>
-    <lastmod>2019-07-30T10:31:09+02:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://www.bldn.se/posts/</loc>
     <lastmod>2019-07-30T10:31:09+02:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -172,6 +165,13 @@
   
   <url>
     <loc>https://www.bldn.se/about/</loc>
+    <lastmod>2016-09-04T10:52:22+02:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.bldn.se/</loc>
     <lastmod>2016-09-04T10:52:22+02:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

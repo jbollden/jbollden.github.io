@@ -18,7 +18,8 @@
       
       <guid>https://www.bldn.se/2019/07/30/power-of-the-tribe/</guid>
       <description>I joined the tribe!
-This July I had the utmost priviliege to be part of SoLEAD16; the 16th class of Sogeti Leadership Academy. 26 collegues from across the world gathered under the safe wings of our facilitators Dian Lens and Mandy Sol. For three intense days we shared, cared, told and networked at the Capgemini Campus Serge Kampf Les Fontaines, a good one hour car ride north of Paris, France.</description>
+This July I had the utmost priviliege to be part of SoLEAD16; the 16thclass of Sogeti Leadership Academy. 26 collegues from across the world gathered under the safe wings of our facilitators Dian Lens and Mandy Sol. For three intense days we shared, cared, told and networked at the Capgemini Campus Serge Kampf Les Fontaines, a good one hour car ride north of Paris, France.
+Below is the description of this awesome programme:</description>
     </item>
     
     <item>
@@ -70,7 +71,7 @@ Lately I&amp;rsquo;ve started to read these adverts more thoroughly and have fou
       <guid>https://www.bldn.se/2017/01/19/more-effective-meetings/</guid>
       <description>In a constant search for improvement, here is a suggestion on what to consider when it comes to meetings.
 Basic principle Respect should always serve as the basic principle, and there is no difference when it comes to meetings.
-Meet or not to meet? The first question to ask is always &amp;ldquo;Why a meeting?&amp;rdquo;. The answer creates the basis for the meeting&amp;rsquo;s purpose. E.g., is it some sort of one-way communication it may in many cases be enough to send the information via e-mail instead of setting up a meeting where perhaps only a few people are actively involved.</description>
+Meet or not to meet? The first question to ask is always &amp;ldquo;Why a meeting?&amp;quot;. The answer creates the basis for the meeting&amp;rsquo;s purpose. E.g., is it some sort of one-way communication it may in many cases be enough to send the information via e-mail instead of setting up a meeting where perhaps only a few people are actively involved.</description>
     </item>
     
     <item>
@@ -104,7 +105,7 @@ Experiences are important parts of life; it&amp;rsquo;s something we accumulate 
       <pubDate>Sat, 24 Sep 2016 07:47:14 +0200</pubDate>
       
       <guid>https://www.bldn.se/2016/09/24/lets-meet-on-time/</guid>
-      <description>The other day I read the great &amp;ldquo;Two Simple Secrets to Starting Every Meeting on Time&amp;rdquo;. Here @sabinanawaz presents two simple rules on &amp;ldquo;how to save time in meetings and be even more productive&amp;rdquo;:
+      <description>The other day I read the great &amp;ldquo;Two Simple Secrets to Starting Every Meeting on Time&amp;quot;. Here @sabinanawaz presents two simple rules on &amp;ldquo;how to save time in meetings and be even more productive&amp;rdquo;:
  Meet for 45 minutes instead of an hour. Start meetings at quarter past the hour.  One could say I&amp;rsquo;ve used the first rule for quite some time, but the meetings were set for 50 minutes.</description>
     </item>
     
@@ -114,8 +115,8 @@ Experiences are important parts of life; it&amp;rsquo;s something we accumulate 
       <pubDate>Mon, 12 Sep 2016 10:37:33 +0200</pubDate>
       
       <guid>https://www.bldn.se/2016/09/12/scrum-values-added-to-the-scrum-guide/</guid>
-      <description>In July of 2016 the Scrum guide was updated, thus adding the Scrum values mentioned in the great &amp;ldquo;Agile Development with Scrum&amp;rdquo;. The text reads as follows, with me highlighting the five values:
- When the values of commitment, courage, focus, openness and respect are embodied and lived by the Scrum Team, the Scrum pillars of transparency, inspection, and adaptation come to life and build trust for everyone. The Scrum Team members learn and explore those values as they work with the Scrum events, roles and artifacts.</description>
+      <description>In July of 2016 the Scrum guide was updated, thus adding the Scrum values mentioned in the great &amp;ldquo;Agile Development with Scrum&amp;quot;. The text reads as follows, with me highlighting the five values:
+ When the values of commitment, courage, focus, opennessand respectare embodied and lived by the Scrum Team, the Scrum pillars of transparency, inspection, and adaptation come to life and build trust for everyone. The Scrum Team members learn and explore those values as they work with the Scrum events, roles and artifacts.</description>
     </item>
     
     <item>
@@ -210,7 +211,7 @@ My application The soft argument(s) The following is the text I submitted 2015-1
       <pubDate>Thu, 03 Dec 2015 08:44:00 +0200</pubDate>
       
       <guid>https://www.bldn.se/2015/12/03/upgrading-ghost/</guid>
-      <description>I&amp;rsquo;m not comfortable with the upgrade procedure that&amp;rsquo;s suggested on the support page &amp;ldquo;How to Upgrade Ghost&amp;rdquo;. The following post describes my way of upgrading.
+      <description>I&amp;rsquo;m not comfortable with the upgrade procedure that&amp;rsquo;s suggested on the support page &amp;ldquo;How to Upgrade Ghost&amp;quot;. The following post describes my way of upgrading.
 By monitoring the GitHub page you&amp;rsquo;ll see when there&amp;rsquo;s a new version released.
 Current setup I&amp;rsquo;m running my Ghost blog on a Linux Droplet at DigitalOcean and use a somewhat different procedure to upgrade my Ghost blog to the latest release. The setup is on Nginx much like described in this post with the use of Supervisor to keep Ghost as a service.</description>
     </item>
