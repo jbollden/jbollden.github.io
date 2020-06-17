@@ -28,7 +28,7 @@ This blog is, at the time of writing, running on Ghost, an awesome node.</descri
       <pubDate>Thu, 03 Dec 2015 08:44:00 +0200</pubDate>
       
       <guid>https://www.bldn.se/2015/12/03/upgrading-ghost/</guid>
-      <description>I&amp;rsquo;m not comfortable with the upgrade procedure that&amp;rsquo;s suggested on the support page &amp;ldquo;How to Upgrade Ghost&amp;quot;. The following post describes my way of upgrading.
+      <description>I&amp;rsquo;m not comfortable with the upgrade procedure that&amp;rsquo;s suggested on the support page &amp;ldquo;How to Upgrade Ghost&amp;rdquo;. The following post describes my way of upgrading.
 By monitoring the GitHub page you&amp;rsquo;ll see when there&amp;rsquo;s a new version released.
 Current setup I&amp;rsquo;m running my Ghost blog on a Linux Droplet at DigitalOcean and use a somewhat different procedure to upgrade my Ghost blog to the latest release. The setup is on Nginx much like described in this post with the use of Supervisor to keep Ghost as a service.</description>
     </item>
