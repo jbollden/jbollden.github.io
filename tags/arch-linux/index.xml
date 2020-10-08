@@ -6,11 +6,7 @@
     <description>Recent content in arch linux on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2013 12:02:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.bldn.se/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 26 Aug 2013 12:02:00 +0200</lastBuildDate><atom:link href="https://www.bldn.se/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rackspace Cloud Backup on Arch 2013.6</title>
       <link>https://www.bldn.se/2013/08/26/rackspace-cloud-backup-on-arch-2013-6/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in framework on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 12 Aug 2012 15:56:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.bldn.se/tags/framework/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 12 Aug 2012 15:56:00 +0200</lastBuildDate><atom:link href="https://www.bldn.se/tags/framework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use latest CodeIgniter in your project</title>
       <link>https://www.bldn.se/2012/08/12/use-latest-codeigniter-in-your-project/</link>

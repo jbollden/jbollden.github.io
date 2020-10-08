@@ -6,11 +6,7 @@
     <description>Recent content in pacman on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 17 Apr 2013 00:53:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.bldn.se/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 17 Apr 2013 00:53:00 +0200</lastBuildDate><atom:link href="https://www.bldn.se/tags/pacman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reinstalling all packages in Arch Linux</title>
       <link>https://www.bldn.se/2013/04/17/reinstalling-all-packages-in-arch-linux/</link>

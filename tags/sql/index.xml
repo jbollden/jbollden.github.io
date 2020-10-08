@@ -6,11 +6,7 @@
     <description>Recent content in sql on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Dec 2012 15:42:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.bldn.se/tags/sql/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 04 Dec 2012 15:42:00 +0200</lastBuildDate><atom:link href="https://www.bldn.se/tags/sql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sorting in SQL</title>
       <link>https://www.bldn.se/2012/12/04/sorting-in-sql/</link>

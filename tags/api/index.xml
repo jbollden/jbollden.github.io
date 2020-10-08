@@ -6,11 +6,7 @@
     <description>Recent content in api on Jonas Bolldén</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 10 Jun 2014 16:35:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://www.bldn.se/tags/api/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 10 Jun 2014 16:35:00 +0200</lastBuildDate><atom:link href="https://www.bldn.se/tags/api/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theoretical grounds for RESTful APIs</title>
       <link>https://www.bldn.se/2014/06/10/theoretical-grounds-for-restful-apis/</link>
